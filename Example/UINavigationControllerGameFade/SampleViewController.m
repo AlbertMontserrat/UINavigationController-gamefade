@@ -7,7 +7,7 @@
 //
 
 #import "SampleViewController.h"
-#import "UINavigationController+gamefade.h"
+#import <UINavigationControllerGameFade/UINavigationController+gamefade.h>
 
 @interface SampleViewController ()
 
