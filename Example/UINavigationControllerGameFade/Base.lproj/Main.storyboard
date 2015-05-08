@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tAJ-pj-znU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="EyD-G6-v3a">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="tAJ-pj-znU" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rBT-KO-f0x">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4uo-yh-UA8" kind="relationship" relationship="rootViewController" id="HkK-bY-rQL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Htb-6K-wcm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="687" y="522"/>
+        </scene>
+        <!--Sample View Controller-->
+        <scene sceneID="Azv-Y4-sHQ">
+            <objects>
+                <viewController storyboardIdentifier="sampleviewcontroller" title="Sample View Controller" id="4uo-yh-UA8" customClass="SampleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RSb-0B-Ys4"/>
+                        <viewControllerLayoutGuide type="bottom" id="VTd-4j-EDl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yZW-s0-MGl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ol1-Mp-yF3">
+                                <rect key="frame" x="145" y="92" width="311" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="1tf-gh-eSm"/>
+                                    <constraint firstAttribute="width" constant="311" id="7MX-yg-DFq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djO-Og-V2S">
+                                <rect key="frame" x="181" y="202" width="238" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="EES-KD-Mwu"/>
+                                    <constraint firstAttribute="width" constant="238" id="REO-oA-P5H"/>
+                                </constraints>
+                                <state key="normal" title="Push new view controller">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="push:" destination="4uo-yh-UA8" eventType="touchUpInside" id="QNZ-Wz-0YW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGE-yU-aKS">
+                                <rect key="frame" x="181" y="274" width="238" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="THs-Yk-jSq"/>
+                                    <constraint firstAttribute="height" constant="40" id="yNc-Dy-xV5"/>
+                                </constraints>
+                                <state key="normal" title="Pop view controller">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pop:" destination="4uo-yh-UA8" eventType="touchUpInside" id="XTF-SJ-wBd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6M-9I-vhr">
+                                <rect key="frame" x="181" y="346" width="238" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="QSe-pX-WJZ"/>
+                                    <constraint firstAttribute="width" constant="238" id="QeJ-XT-UGb"/>
+                                </constraints>
+                                <state key="normal" title="Replace view controller">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="replace:" destination="4uo-yh-UA8" eventType="touchUpInside" id="mEG-v7-TrA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMp-vB-l9k">
+                                <rect key="frame" x="181" y="421" width="238" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MJt-k7-fzo"/>
+                                    <constraint firstAttribute="width" constant="238" id="U9Y-YQ-Ma6"/>
+                                </constraints>
+                                <state key="normal" title="Replace 2 view controllers">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="replace2:" destination="4uo-yh-UA8" eventType="touchUpInside" id="98B-7O-F4f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5d-ia-qSZ">
+                                <rect key="frame" x="181" y="496" width="238" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="RcA-ZP-YlR"/>
+                                    <constraint firstAttribute="height" constant="40" id="gkc-pe-JK9"/>
+                                </constraints>
+                                <state key="normal" title="Reset root view controller and pop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="4uo-yh-UA8" eventType="touchUpInside" id="ZwN-Zi-w9E"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYI-jH-6rB">
+                                <rect key="frame" x="16" y="134" width="568" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="1xE-GL-kVi"/>
+                                    <constraint firstAttribute="width" constant="311" id="3Er-zj-gTC"/>
+                                    <constraint firstAttribute="height" constant="32" id="ORB-PF-Rw5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3Er-zj-gTC"/>
+                                        <exclude reference="ORB-PF-Rw5"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ol1-Mp-yF3" firstAttribute="centerY" secondItem="yZW-s0-MGl" secondAttribute="bottom" multiplier="0.18" id="0ep-UI-w4j"/>
+                            <constraint firstAttribute="centerX" secondItem="KMp-vB-l9k" secondAttribute="centerX" id="1TT-2j-gIQ"/>
+                            <constraint firstAttribute="centerX" secondItem="Ol1-Mp-yF3" secondAttribute="centerX" id="1qI-wg-jmR"/>
+                            <constraint firstItem="GYI-jH-6rB" firstAttribute="width" secondItem="yZW-s0-MGl" secondAttribute="width" constant="-32" id="1rc-oL-4DH"/>
+                            <constraint firstItem="GYI-jH-6rB" firstAttribute="centerY" secondItem="yZW-s0-MGl" secondAttribute="bottom" multiplier="0.25" id="HKS-eY-pAd"/>
+                            <constraint firstItem="KMp-vB-l9k" firstAttribute="centerY" secondItem="yZW-s0-MGl" secondAttribute="bottom" multiplier="0.735" id="J1k-e5-j1I"/>
+                            <constraint firstItem="w6M-9I-vhr" firstAttribute="centerY" secondItem="yZW-s0-MGl" secondAttribute="bottom" multiplier="0.61" id="M81-BW-Aes"/>
+                            <constraint firstItem="djO-Og-V2S" firstAttribute="centerY" secondItem="yZW-s0-MGl" secondAttribute="bottom" multiplier="0.37" id="Paj-Fx-JsC"/>
+                            <constraint firstItem="H5d-ia-qSZ" firstAttribute="centerY" secondItem="yZW-s0-MGl" secondAttribute="bottom" multiplier="0.86" id="V61-BS-hSm"/>
+                            <constraint firstItem="mGE-yU-aKS" firstAttribute="centerY" secondItem="yZW-s0-MGl" secondAttribute="bottom" multiplier="0.49" id="YfK-VN-ui7"/>
+                            <constraint firstAttribute="centerX" secondItem="H5d-ia-qSZ" secondAttribute="centerX" id="bUn-iy-gIG"/>
+                            <constraint firstAttribute="centerX" secondItem="djO-Og-V2S" secondAttribute="centerX" id="kLU-RP-uZq"/>
+                            <constraint firstAttribute="centerX" secondItem="w6M-9I-vhr" secondAttribute="centerX" id="qN1-Iq-s1H"/>
+                            <constraint firstAttribute="centerX" secondItem="mGE-yU-aKS" secondAttribute="centerX" id="r9b-vv-ict"/>
+                            <constraint firstAttribute="centerX" secondItem="GYI-jH-6rB" secondAttribute="centerX" id="y3y-Ry-iiz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="7H1-vR-XVh"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="btnPop" destination="mGE-yU-aKS" id="Iw2-n5-x6E"/>
+                        <outlet property="btnPush" destination="djO-Og-V2S" id="OZU-ab-vJl"/>
+                        <outlet property="btnReplace" destination="w6M-9I-vhr" id="sfw-zQ-wqN"/>
+                        <outlet property="btnReplace2" destination="KMp-vB-l9k" id="Zxe-dk-EgG"/>
+                        <outlet property="btnReset" destination="H5d-ia-qSZ" id="mVa-GI-DKE"/>
+                        <outlet property="label" destination="Ol1-Mp-yF3" id="sjb-uE-bbb"/>
+                        <outlet property="labelAllControllers" destination="GYI-jH-6rB" id="IEc-oj-y2X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="epo-iq-VZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1436" y="522"/>
+        </scene>
+    </scenes>
+</document>

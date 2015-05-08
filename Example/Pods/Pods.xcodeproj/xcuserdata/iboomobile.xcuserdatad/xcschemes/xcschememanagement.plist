@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Tests-UINavigationControllerGameFade.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-UINavigationControllerGameFade-UINavigationControllerGameFade.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-UINavigationControllerGameFade.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UINavigationControllerGameFade.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>065A2F33F4998CC49E064796</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2CE65279C5FB967956A46A29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>809958314707E66E518866B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A50202657054364C143DF6E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C207716C96810535A7AF478C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

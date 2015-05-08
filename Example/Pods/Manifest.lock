@@ -1,0 +1,14 @@
+PODS:
+  - UINavigationControllerGameFade (0.1.0)
+
+DEPENDENCIES:
+  - UINavigationControllerGameFade (from `../`)
+
+EXTERNAL SOURCES:
+  UINavigationControllerGameFade:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UINavigationControllerGameFade: 85a0502f1be2199d7554b3124d0a4b2aa4cbede0
+
+COCOAPODS: 0.35.0
