@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "UINavigationControllerGameFade"
   s.version          = "1.0"
-  s.summary          = "Fade transitions for UINavigationController such as push, pop, reset root view controller and replace one or multiple view controllers."
+  s.summary          = "Fade transitions for UINavigationController"
   s.description      = <<-DESC
 Fade transitions for UINavigationController such as push, pop, reset root view controller and replace one or multiple view controllers
                        DESC
@@ -19,7 +19,6 @@ Fade transitions for UINavigationController such as push, pop, reset root view c
   s.license          = 'MIT'
   s.author           = { "Albert Montserrat" => "albert.montserrat.gambus@gmail.com" }
   s.source           = { :git => "https://github.com/AlbertMontserrat/UINavigationController-gamefade.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
