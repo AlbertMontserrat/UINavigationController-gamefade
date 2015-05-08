@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UINavigationControllerGameFade: 6011d75af0fd9f8a599e9f1e85997c81e57a6596
+  UINavigationControllerGameFade: d236951e3344512f44942074e717594ffc43ecc9
 
 COCOAPODS: 0.35.0

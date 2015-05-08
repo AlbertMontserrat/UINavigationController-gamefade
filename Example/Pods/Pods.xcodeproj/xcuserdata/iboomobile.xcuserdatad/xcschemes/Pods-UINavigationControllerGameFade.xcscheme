@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1EF4EAD8070FAF41C36D886F"
+               BlueprintIdentifier = "9622B1DA8480FF0063A0EFAC"
                BuildableName = "libPods-UINavigationControllerGameFade.a"
                BlueprintName = "Pods-UINavigationControllerGameFade"
                ReferencedContainer = "container:Pods.xcodeproj">
