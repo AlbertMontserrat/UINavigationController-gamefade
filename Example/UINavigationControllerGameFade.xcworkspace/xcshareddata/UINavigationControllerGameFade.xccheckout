@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2CC78A86-4016-4FB3-88ED-9BA0020BDA8E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UINavigationControllerGameFade</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A1345224A3AFDAF328042D3A3CB7A4DD4C18ABB6</key>
+		<string>https://github.com/AlbertMontserrat/UINavigationController-gamefade.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/UINavigationControllerGameFade.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A1345224A3AFDAF328042D3A3CB7A4DD4C18ABB6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlbertMontserrat/UINavigationController-gamefade.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A1345224A3AFDAF328042D3A3CB7A4DD4C18ABB6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A1345224A3AFDAF328042D3A3CB7A4DD4C18ABB6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UINavigationController+gamefade</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -8,7 +8,7 @@
 
 // UINavigationControllerGameFade
 #define COCOAPODS_POD_AVAILABLE_UINavigationControllerGameFade
-#define COCOAPODS_VERSION_MAJOR_UINavigationControllerGameFade 0
-#define COCOAPODS_VERSION_MINOR_UINavigationControllerGameFade 1
+#define COCOAPODS_VERSION_MAJOR_UINavigationControllerGameFade 1
+#define COCOAPODS_VERSION_MINOR_UINavigationControllerGameFade 0
 #define COCOAPODS_VERSION_PATCH_UINavigationControllerGameFade 0
 

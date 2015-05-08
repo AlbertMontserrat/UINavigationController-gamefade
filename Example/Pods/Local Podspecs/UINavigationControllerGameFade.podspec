@@ -9,22 +9,19 @@
 
 Pod::Spec.new do |s|
   s.name             = "UINavigationControllerGameFade"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of UINavigationControllerGameFade."
+  s.version          = "1.0"
+  s.summary          = "Fade transitions for UINavigationController such as push, pop, reset root view controller and replace one or multiple view controllers."
   s.description      = <<-DESC
-                       An optional longer description of UINavigationControllerGameFade
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+Fade transitions for UINavigationController such as push, pop, reset root view controller and replace one or multiple view controllers
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/UINavigationControllerGameFade"
+  s.homepage         = "https://github.com/AlbertMontserrat/UINavigationController-gamefade"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Albert M" => "ios@iboomobile.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/UINavigationControllerGameFade.git", :tag => s.version.to_s }
+  s.author           = { "Albert Montserrat" => "albert.montserrat.gambus@gmail.com" }
+  s.source           = { :git => "https://github.com/AlbertMontserrat/UINavigationController-gamefade.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -32,7 +29,7 @@ Pod::Spec.new do |s|
     'UINavigationControllerGameFade' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'QuartzCore'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
